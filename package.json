@@ -1,0 +1,13 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "all of my learning using tailwindcss",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "tailwindcss -i src/input.css -o src/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
