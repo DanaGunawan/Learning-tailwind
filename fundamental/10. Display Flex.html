@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Flex</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <!-- 1. Display Flex -->
+     <div class="border-4 border-green-500 m-5">
+        <ul class="flex">
+            <li class="bg-teal-300 m-5 p-5">1</li>
+            <li class="bg-teal-300 m-5 p-5">2</li>
+            <li class="bg-teal-300 m-5 p-5">3</li>
+            <li class="bg-teal-300 m-5 p-5">4</li>
+            <li class="bg-teal-300 m-5 p-5">5</li>
+        </ul>
+     </div>
+    
+     <!-- 2. flex direction -->
+     <div class="border-4 border-green-500 m-5">
+        <ul class="flex flex-row-reverse">
+            <li class="bg-teal-300 m-5 p-5">1</li>
+            <li class="bg-teal-300 m-5 p-5">2</li>
+            <li class="bg-teal-300 m-5 p-5">3</li>
+            <li class="bg-teal-300 m-5 p-5">4</li>
+            <li class="bg-teal-300 m-5 p-5">5</li>
+        </ul>
+     </div>
+
+     <!-- 3. Flex justify -->
+       <div class="border-4 border-green-500 m-5">
+        <ul class="flex  justify-center flex-row-reverse">
+            <li class="bg-teal-300 m-5 p-5">1</li>
+            <li class="bg-teal-300 m-5 p-5">2</li>
+            <li class="bg-teal-300 m-5 p-5">3</li>
+            <li class="bg-teal-300 m-5 p-5">4</li>
+            <li class="bg-teal-300 m-5 p-5">5</li>
+        </ul>
+     </div>
+
+      <!-- 4. Flex Orders -->
+      <div class="border-4 border-green-500 m-5">
+        <ul class="flex  justify-center flex-row-reverse">
+            <li class="bg-teal-300 m-5 p-5 order-1">1</li>
+            <li class="bg-teal-300 m-5 p-5 order-2">2</li>
+            <li class="bg-teal-300 m-5 p-5 order-3">3</li>
+            <li class="bg-teal-300 m-5 p-5 order-4">4</li>
+            <li class="bg-teal-300 m-5 p-5 order-5">5</li>
+        </ul>
+     </div>
+
+     <!-- Flex Grow And Shrinks -->
+     <div class="border-4 border-green-500 m-5">
+        <ul class="flex  justify-center flex-row">
+            <li class="bg-teal-300 m-5 p-5 flex-none">1</li>
+            <li class="bg-teal-300 m-5 p-5 flex-initial">2</li>
+            <li class="bg-teal-300 m-5 p-5 flex-auto">3</li>
+            <li class="bg-teal-300 m-5 p-5 flex-shrink">4</li>
+            <li class="bg-teal-300 m-5 p-5 flex-1">5</li>
+        </ul>
+     </div>
+
+
+</body>
+</html>
